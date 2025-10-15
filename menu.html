@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Меню — Cafe Aroma</title>
+  <meta name="description" content="Меню кафе: эспрессо, капучино, латте, десерты и сэндвичи.">
+  <link rel="preload" as="style" href="assets/css/styles.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/styles.css"></noscript>
+  <script src="assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Cafe Aroma",
+    "servesCuisine": "Coffee, Desserts, Sandwiches",
+    "address": {"@type":"PostalAddress","addressLocality":"Ваш город","streetAddress":"Улица 1"},
+    "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-18:00"
+  }
+  </script>
+</head>
+<body>
+ <header>
+  <div class="container">
+    <nav>
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="" width="28" height="28" loading="lazy">
+        <strong>Cafe Aroma</strong>
+      </div>
+      <div>
+        <a href="index.html">Главная</a>
+        <a href="menu.html">Меню</a>
+        <a href="about.html">О нас</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Меню</h1>
+      <p>Готовим на арабике 100%. Молоко: коровье, безлактозное, овсяное.</p>
+    </section>
+
+    <section aria-labelledby="coffee">
+      <h2 id="coffee">Кофе</h2>
+      <div class="grid">
+        <div class="card menu-item">
+          <img src="assets/img/espresso.jpg" alt="Эспрессо" >
+          <div><h3>Эспрессо</h3><p class="muted">30 мл</p></div>
+          <div class="price">120 ₽</div>
+        </div>
+        <div class="card menu-item">
+          <img src="assets/img/latte.jpg" alt="Латте" >
+          <div><h3>Латте</h3><p class="muted">250 мл</p></div>
+          <div class="price">180 ₽</div>
+        </div>
+        <div class="card menu-item">
+          <img src="assets/img/cappuccino.jpg" alt="Капучино" >
+          <div><h3>Капучино</h3><p class="muted">200 мл</p></div>
+          <div class="price">170 ₽</div>
+        </div>
+        <div class="card menu-item">
+          <img src="assets/img/americano.jpg" alt="Американо" >
+          <div><h3>Американо</h3><p class="muted">200 мл</p></div>
+          <div class="price">140 ₽</div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="desserts">
+      <h2 id="desserts">Десерты</h2>
+      <div class="grid">
+        <div class="card menu-item">
+          <img src="assets/img/chiz.jpg" alt="Чизкейк" >
+          <div><h3>Чизкейк</h3><p class="muted">Порция</p></div>
+          <div class="price">220 ₽</div>
+        </div>
+        <div class="card menu-item">
+          <img src="assets/img/mafin.jpg" alt="Маффин шоколадный" >
+          <div><h3>Маффин шоколадный</h3><p class="muted">Порция</p></div>
+          <div class="price">120 ₽</div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="sandwiches">
+      <h2 id="sandwiches">Сэндвичи</h2>
+      <div class="grid">
+        <div class="card menu-item">
+          <img src="assets/img/pan.jpg" alt="Панини с курицей" >
+          <div><h3>Панини с курицей</h3><p class="muted">Тёплый</p></div>
+          <div class="price">250 ₽</div>
+        </div>
+        <div class="card menu-item">
+          <img src="assets/img/sen.jpg" alt="Сэндвич вегетарианский" >
+          <div><h3>Сэндвич вегетарианский</h3><p class="muted">Хрустящий</p></div>
+          <div class="price">230 ₽</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p><a class="btn" href="index.html">На главную</a></p>
+    </section>
+  </main>
+  <main class="container">
+    <section class="footer">
+      <p>© 2025 Cafe Aroma • Сделано для учебного проекта и публикации на GitHub Pages</p>
+    </section>
+  </main>
+</body>
+</html>

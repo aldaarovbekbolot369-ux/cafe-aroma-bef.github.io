@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Aroma — свежая обжарка и десерты</title>
+  <meta name="description" content="Небольшое кафе с ароматным кофе, десертами и сэндвичами. Быстрый сайт, готовый к публикации на GitHub Pages.">
+ <link rel="stylesheet" href="assets/css/styles.css">
+ <script src="assets/js/main.js"></script>
+ <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Cafe Aroma",
+    "servesCuisine": "Coffee, Desserts, Sandwiches",
+    "address": {"@type":"PostalAddress","addressLocality":"Ваш город","streetAddress":"Улица 1"},
+    "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-18:00"
+  }
+  </script>
+</head>
+<body>
+ <header>
+  <div class="container">
+    <nav>
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="" width="28" height="28" loading="lazy">
+        <strong>Cafe Aroma</strong>
+      </div>
+      <div>
+        <a href="index.html">Главная</a>
+        <a href="menu.html">Меню</a>
+        <a href="about.html">О нас</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="container">
+    <section class="hero">
+      <span class="badge">Свежая обжарка</span>
+      <h1>Добро пожаловать в Cafe Aroma</h1>
+      <p>Кофе, десерты и уют — всё, что нужно для отличного дня.</p>
+      <p style="margin-top:16px">
+        <a class="btn" href="menu.html">Смотреть меню</a>
+        <a class="btn secondary" href="#contacts">Контакты</a>
+      </p>
+    </section>
+
+    <section aria-labelledby="popular">
+      <h2 id="popular">Популярное</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/img/espresso.jpg" alt="Эспрессо">
+          <h3>Эспрессо</h3>
+          <p>Классика для ценителей насыщенного вкуса.</p>
+        </article>
+        <article class="card">
+          <img src="assets/img/latte.jpg"  alt="Латте">
+          <h3>Латте</h3>
+          <p>Мягкий вкус с бархатистой молочной пеной.</p>
+        </article>
+        <article class="card">
+          <img src="assets/img/des.jpg"  alt="Десерты">
+          <h3>Домашние десерты</h3>
+          <p>Ежедневно свежая выпечка и чизкейки.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacts" aria-labelledby="contact">
+      <h2 id="contact">Контакты</h2>
+      <table>
+        <tr><th>Адрес</th><td>Улица 1, Ваш город</td></tr>
+        <tr><th>Время работы</th><td>Пн–Пт 08:00–20:00, Сб–Вс 09:00–18:00</td></tr>
+        <tr><th>Телефон</th><td>+00 (000) 000-00-00</td></tr>
+      </table>
+    </section>
+  </main>
+  <main class="container">
+    <section class="footer">
+      <p>© 2025 Cafe Aroma • Сделано для учебного проекта и публикации на GitHub Pages</p>
+    </section>
+  </main>
+</body>
+</html>
